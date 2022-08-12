@@ -2,9 +2,10 @@
   "name": "my-project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "default": "index.html",
   "scripts": {
-    "dev": "npx parcel src/index.html"
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "keywords": [],
   "author": "",
